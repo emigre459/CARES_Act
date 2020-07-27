@@ -1,9 +1,11 @@
-CARES_Act
+# CARES_Act
 ==============================
 
-Data engineering and analysis of CARES Act funding data
+## Purpose
 
-Project Organization
+Data engineering and analysis of CARES Act funding data, initially in service of a partnership between the National Press Foundation and DataKind DC. The work done here will be used to publish articles on the efficacy and various facets of CARES Act (round 1, at least) stimulus funding.
+
+## Project Organization
 ------------
 
     ├── LICENSE
@@ -51,6 +53,12 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+
+## Data
+
+A copy of the raw data used in this project [can be found here](https://sba.app.box.com/s/tvb0v5i57oa8gc6b5dcm9cyw7y2ms6pp). This covers all datasets, for all states, above and below the $150K loan threshold for the Paycheck Protection Program.
+
+Note that these data are [rife with errors](https://qz.com/1878225/heres-what-we-know-is-wrong-with-the-ppp-data/), which hopefully this project will be able to rectify.
 
 --------
 
